@@ -1,4 +1,4 @@
-use dhartitri_chain_vm_executor::Instance;
+use dharitri_chain_vm_executor::Instance;
 
 use crate::capi_instance::{vm_exec_instance_t, CapiInstance};
 use crate::service_singleton::with_service;

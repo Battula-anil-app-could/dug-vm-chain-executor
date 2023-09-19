@@ -1,5 +1,5 @@
 [package]
-name = "dhartitri-chain-vm-executor-wasmer"
+name = "dharitri-chain-vm-executor-wasmer"
 version = "0.0.1"
 edition = "2021"
 publish = false # will also be published, but it is not yet ready for that
@@ -7,7 +7,7 @@ publish = false # will also be published, but it is not yet ready for that
 [lib]
 
 [dependencies]
-dhartitri-chain-vm-executor = { path = "../vm-executor" }
+dharitri-chain-vm-executor = { path = "../vm-executor" }
 
 wasmer = { git = "https://github.com/multiversx/wasmer", rev = "cdd1550", default-features = false, features = [
     "singlepass",

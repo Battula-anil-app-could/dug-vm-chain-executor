@@ -1,6 +1,6 @@
 use std::rc::Rc;
 
-use dhartitri_chain_vm_executor::{MemLength, MemPtr, VMHooks};
+use dharitri_chain_vm_executor::{MemLength, MemPtr, VMHooks};
 use wasmer::WasmerEnv;
 
 #[derive(Clone, Debug)]

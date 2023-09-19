@@ -1,5 +1,5 @@
 use log::trace;
-use dhartitri_chain_vm_executor::{
+use dharitri_chain_vm_executor::{
     Executor, ExecutorError, ExecutorLastError, ExecutorService, VMHooks,
 };
 

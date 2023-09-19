@@ -1,5 +1,5 @@
-use dhartitri_chain_vm_executor::{CompilationOptions, ExecutorService, Instance, VMHooksDefault};
-use dhartitri_chain_vm_executor_wasmer::BasicExecutorService;
+use dharitri_chain_vm_executor::{CompilationOptions, ExecutorService, Instance, VMHooksDefault};
+use dharitri_chain_vm_executor_wasmer::BasicExecutorService;
 use wasmer::wat2wasm;
 
 const DUMMY_COMPILATION_OPTIONS: CompilationOptions = CompilationOptions {

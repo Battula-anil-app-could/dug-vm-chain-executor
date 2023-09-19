@@ -1,4 +1,4 @@
-# dhartitri-chain-vm-executor
+# dharitri-chain-vm-executor
 
 The Dhartitri VM is composed of two parts:
 - A high-level VM, that connects to the protocol and manages the environment of the smart contract execution

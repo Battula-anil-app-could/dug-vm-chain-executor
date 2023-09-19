@@ -1,5 +1,5 @@
-use dhartitri_chain_vm_executor::ExecutorService;
-use dhartitri_chain_vm_executor_wasmer::BasicExecutorService;
+use dharitri_chain_vm_executor::ExecutorService;
+use dharitri_chain_vm_executor_wasmer::BasicExecutorService;
 use std::cell::RefCell;
 
 thread_local! {
