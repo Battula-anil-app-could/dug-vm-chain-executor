@@ -9,15 +9,15 @@ publish = false # will also be published, but it is not yet ready for that
 [dependencies]
 dharitri-chain-vm-executor = { path = "../vm-executor" }
 
-wasmer = { git = "https://github.com/multiversx/wasmer", rev = "cdd1550", default-features = false, features = [
+wasmer = { git = "https://github.com/wasmerio/wasmer", rev = "cdd1550", default-features = false, features = [
     "singlepass",
     "sys",
     "universal",
     "wat",
 ] }
 
-wasmer-vm = { git = "https://github.com/multiversx/wasmer", rev = "cdd1550" }
-wasmer-types = { git = "https://github.com/multiversx/wasmer", rev = "cdd1550" }
+wasmer-vm = { git = "https://github.com/wasmerio/wasmer", rev = "cdd1550" }
+wasmer-types = { git = "https://github.com/wasmerio/wasmer", rev = "cdd1550" }
 
 chrono = "0.4.23"
 log = "0.4.17"
